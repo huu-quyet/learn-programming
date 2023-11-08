@@ -9,8 +9,8 @@ let billion = 1000000000;
 let billion1 = 1_000_000_000;
 console.log(billion1);
 // Here the underscore _ plays the role of the “syntactic sugar”, it makes the number more readable. The JavaScript engine simply ignores _ between digits, so it’s exactly the same one billion as above.
-let billion2 = 1e9; // 1 billion, literally: 1 and 9 zeroes
-console.log(7.3e9); // 7.3 billions (same as 7300000000 or 7_300_000_000)
+let billion2 = 1e9; // 1 billion;
+console.log(7.3e9); // 7.3 billions (same as 73000000000 or 73_000_000_000)
 
 1e3 === 1 * 1000; // e3 means *1000
 console.log(1e3);
