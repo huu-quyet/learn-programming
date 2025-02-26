@@ -23,3 +23,9 @@ Use curly brackets
 my_tuple = (1, 2, 3, 4, 5)
 print(my_tuple[1])
 my_tuple[1] = 100
+
+# Compare List, Dictionary, Set, Tuple:
+# List: Ordered, Mutable, Duplicates allowed
+# Dictionary: Unordered, Mutable, Duplicates not allowed
+# Set: Unordered, Mutable, Duplicates not allowed
+# Tuple: Ordered, Immutable, Duplicates allowed
